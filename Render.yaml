@@ -1,0 +1,11 @@
+name: trello-app-backend
+stack: node
+env: 
+  NODE_ENV: production
+build:
+  - npm install
+  - npm run build
+start: npm start
+dependencies:
+  - "express"
+  - "dotenv"
